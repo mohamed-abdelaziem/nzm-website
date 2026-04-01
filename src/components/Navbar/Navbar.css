@@ -1,0 +1,15 @@
+nav a:hover span {
+  width: 100% !important;
+  transition: 0.5s ease;
+}
+
+a.active {
+  transform: translateY(-5px);
+  color: var(--color-primary-fixed-dim);
+  border-bottom: 1px solid var(--color-primary-fixed-dim);
+}
+
+.nav-mobile-bg {
+  background-color: var(--color-surface-container);
+  backdrop-filter: blur(10px);
+}
