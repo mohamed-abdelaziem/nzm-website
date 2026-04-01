@@ -58,7 +58,6 @@ export default function Navbar() {
                 prefetch={false}
                 href={"/services"}
                 className={`text-[#e5e2e1] flex relative flex-col  hover:text-[#d6baff]  hover:-translate-y-1.25 font-medium transition-all duration-500 pb-1 border-b border-b-transparent  ${pathName == "/services" ? "-translate-y-1.25 scale-110" : ""}`}>
-                {" "}
                 Services
                 <span
                   className={`bg-primary-fixed-dim block bottom-0 right-0 left-0 absolute w-0 rounded-4xl h-0.5 mx-auto ${pathName == "/services" ? "w-full" : ""}`}></span>
@@ -91,7 +90,7 @@ export default function Navbar() {
                   className={`bg-primary-fixed-dim block bottom-0 right-0 left-0 absolute w-0 rounded-4xl h-0.5 mx-auto ${pathName == "/contact" ? "w-full" : ""}`}></span>
               </Link>
 
-              <Link href={'/contact'} className="mainBtn transition-all duration-500 text-center hover:-translate-1.25  md:text-[20px] w-full hover:shadow-[0_0_30px_rgba(186,171,255,0.2)]  cursor-pointer px-6 py-2.5 rounded text-on-surface font-bold scale-95 active:scale-90  shadow-[0_0_20px_rgba(82,11,77,0.4)]">
+              <Link href={'/contact'} onClick={()=>toggleIsOpen()} className="mainBtn transition-all duration-500 text-center hover:-translate-1.25  md:text-[20px] w-full hover:shadow-[0_0_30px_rgba(186,171,255,0.2)]  cursor-pointer px-6 py-2.5 rounded text-on-surface font-bold scale-95 active:scale-90  shadow-[0_0_20px_rgba(82,11,77,0.4)]">
                 Start Project
               </Link>
             </div>
