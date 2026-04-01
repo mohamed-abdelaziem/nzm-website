@@ -14,10 +14,14 @@ const outfit = Outfit({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "NZM",
-  description:
-    "Boost your business with expert digital marketing services. We specialize in ads, SEO, and growth strategies that drive real results. Start today!",
+export const metadata :Metadata= {
+  title: "NZM Advertising Agency",
+  description: "Grow your business with NZM.",
+  openGraph: {
+    title: "NZM Advertising Agency",
+    description: "Boost your business with expert marketing services.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
