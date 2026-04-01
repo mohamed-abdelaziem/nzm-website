@@ -19,7 +19,7 @@ export default function Navbar() {
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, type: "tween" }}
-        className="sticky top-0 w-full z-99999 bg-surface/60 dark:bg-[#131313]/60 backdrop-blur-xl  antialiased tracking-tight">
+        className="sticky top-0 w-full z-50 bg-surface/60 dark:bg-[#131313]/60 backdrop-blur-xl  antialiased tracking-tight">
         <div className="flex justify-between items-center px-8 py-4 max-w-screen-2xl mx-auto">
           <div className="logo text-2xl font-black tracking-tighter text-[#e5e2e1]">
             <h1 className="logo text-4xl font-extrabold ">NZM</h1>
