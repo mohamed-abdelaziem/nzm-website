@@ -25,19 +25,20 @@ export default function About() {
             <span className="text-primary font-label text-xs tracking-[0.2em] uppercase mb-6 block">
               Our Identity
             </span>
-            <h1 className="text-5xl md:text-8xl  font-black leading-15 md:leading-25  mb-12 max-w-4xl">
+            <h1 className="text-5xl md:text-8xl  font-black leading-15 md:leading-25  mb-5 max-w-4xl">
               Architecting the 
               <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-secondary"> digital frontier with precision. </span>
             </h1>
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-end">
-              <div className="md:col-span-7">
-                <p className="text-lg md:text-xl text-on-surface/80 leading-relaxed max-w-2xl">
+             <p className="md:text-xl text-on-surface/80 leading-relaxed max-w-2xl">
                   We don't build websites; we design high-performance digital
                   environments. NZM was born from the intersection of
                   architectural discipline and creative fluidity.
                 </p>
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-end">
+              <div className="md:col-span-7">
+               
               </div>
-              <div className="md:col-span-5 flex justify-end">
+              <div className="hidden md:col-span-5  md:flex justify-end">
                 <div className="w-full h-64 rounded-xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
                   <img
                     className="w-full h-full object-cover"

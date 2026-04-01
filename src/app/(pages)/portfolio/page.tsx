@@ -59,7 +59,7 @@ export default function Portfolio() {
       <div className="project-card group relative aspact-video bg-surface-container-low rounded-2xl overflow-hidden cursor-pointer">
         <div className="absolute inset-0 bg-linear-to-t from-surface-container-lowest to-transparent opacity-60 z-10" />
         <img alt="Project Thumbnail" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Abstract 3D flowing purple silk structures in a dark void with neon highlights and soft shadows, high-end digital art style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6HWVZQnfF24WaZEsFwH-T4ZGFmlDO0i9wKDshyVagsYs2PBshBy4XkInNmDBPXk2J-MC_L8QD3eF_jRapgFXMmL07ANnFTp-ChLLjSPdlCwAU6wctp_PgpfcwihjGxg-6aLsP648F3nH5XTErWhz5h-hdRbaJFDTtBYTZ3SZ8Vu2f5nTLk4_atUupSay_OUI5s_Fohx6egkn9LV4ZhChNvem9iHQH6G5DHEaDX2A_NzUjebCyRZ4VjZnLId4AKuyG4p1Ju-SqO6I" />
-        <div className="absolute inset-0 flex flex-col justify-end p-8 z-20 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
+        <div className="absolute inset-0 flex flex-col justify-end p-8 z-20 translate-y-4 group-hover:translate-y-0  transition-all duration-500">
           <span className="text-primary font-label text-[10px] tracking-[0.3em] uppercase mb-2">Web Design / 2024</span>
           <h3 className="text-4xl font-bold tracking-tight text-on-surface">
             Luminary OS
@@ -74,7 +74,7 @@ export default function Portfolio() {
       <div className="project-card group relative aspect-square bg-surface-container-low rounded-2xl overflow-hidden cursor-pointer">
         <div className="absolute inset-0 bg-linear-to-t from-surface-container-lowest to-transparent opacity-40 z-10" />
         <img alt="Project Thumbnail" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Deep iridescent purple glass sphere reflecting a dark studio environment with high contrast lighting and sharp highlights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZcI7Bh3T4mSO6Ubp6SNxqH90Ke940bqoxzuWMY8CpafuTF-oe9b7q844FZK9OVxaiY-6Ef82zjfzmXur8Em8ZetzpbTaWC00KwQdTWBMVyP8QSTi2mIiImNIr4yGS7nxnkkfx7mzit4VKv_SUoUHm9var2EEKyP7oEoWx1I3qDOy8S1X5CscwZTO6XfpTRIwsGWrpIoPVEzOUi4OfxFyQbixbLVgZaZrY1wj99HQv2pNcxBVpuu3SPE_y7sl8HDn82s76siq7IQ0" />
-        <div className="absolute inset-0 flex flex-col justify-end p-8 z-20 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
+        <div className="absolute inset-0 flex flex-col justify-end p-8 z-20 translate-y-4 group-hover:translate-y-0  transition-all duration-500">
           <span className="text-secondary font-label text-[10px] tracking-[0.3em] uppercase mb-2">Branding</span>
           <h3 className="text-2xl font-bold tracking-tight text-on-surface">
             Prism Logic
@@ -85,7 +85,7 @@ export default function Portfolio() {
       <div className="project-card group relative aspect-21/9 bg-surface-container-low rounded-2xl overflow-hidden cursor-pointer">
         <div className="absolute inset-0 bg-linear-to-t from-surface-container-lowest via-transparent to-transparent opacity-80 z-10" />
         <img alt="Project Thumbnail" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Wide shot of a minimalist high-tech workspace with multiple screens glowing in deep purple and magenta tones in a dark room" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmLjvubtj40dIhukdVZYapBRdWqEiDafq9m1jRdmlqh9txz-JllOCEdjxaTpta8pK2XSQ0-h2699H3xpNdeIGV-ifAaq1eUEkJVavXa-aBaA8dV6V0oNIQI2pC3o0Xo19xSqliyrwFaSQqN6N6Uorfb-X-aUzLVIESUjaLO_LAF5XpE2Vvp3_klktUy7xmTYGfyP-rLTCIUrPIFQN333iWB0v6UyaS29qJIEFGBoC9lHr_BQRNg8O1rrhJHxOmv6uURgpRHFsZ_E8" />
-        <div className="absolute inset-0 flex flex-col justify-end p-12 z-20 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
+        <div className="absolute inset-0 flex flex-col justify-end p-12 z-20 translate-y-4 group-hover:translate-y-0  transition-all duration-500">
           <div className="max-w-2xl">
             <span className="text-primary font-label text-[10px] tracking-[0.3em] uppercase mb-2">Digital Campaign</span>
             <h3 className="text-5xl font-black tracking-tighter text-on-surface mb-4">
@@ -101,7 +101,7 @@ export default function Portfolio() {
       {/* Project 4 (Small) */}
       <div className="project-card group relative aspect-square bg-surface-container-low rounded-2xl overflow-hidden cursor-pointer">
         <img alt="Project Thumbnail" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Cinematic macro shot of dark liquid metal ripples reflecting neon purple light sources, dramatic and mysterious atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyFLe_2rX07hiGFgq3plsXpp6Vhd7rxAtr21xRzXuu6s8b9uCWddBfh1dGySLtpvhMq6mne7IRLAGuYbwxK8fIxQd2gn9v7bqfiEgly8AKnI4FWWcgAnqs-IL3W73ImCseGZPcv4TogXGU_TRi2L__A6Xas4S0nU4_R6AWRyoTZt2nziGnLWyk5n-P89BASPK_QaAJk3_Qgcm67bd2-VuBjNRIBfywRWTLa8M5SDnjOnub-tmkPy0ABL6Eofbqv9oPP_Uw2DXwQ0Y" />
-        <div className="absolute inset-0 bg-surface-container-highest/60 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-6 text-center">
+        <div className="absolute inset-0 bg-surface-container-highest/60 backdrop-blur-sm  transition-opacity duration-500 flex items-center justify-center p-6 text-center">
           <div>
             <span className="text-primary font-label text-[10px] tracking-[0.2em] uppercase block mb-1">Ads</span>
             <h3 className="text-xl font-bold text-on-surface">Flux Media</h3>
@@ -113,10 +113,10 @@ export default function Portfolio() {
         <div className="absolute inset-0 bg-linear-to-tr from-primary-container/20 to-transparent z-10" />
         <img alt="Project Thumbnail" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="Modern architecture interior with sweeping dark curves and glowing recessed purple lighting, sleek and futuristic aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrVNtbwd8o2vfdiKMNhso6JAOe3iWojeT_Y1rdwqOV7-rLrQzpHteeV7xm_VjXd2m8oNTCV8imCVw1steAt7Jnog9120eFaEBmMjabZ7bVjGk3GoMjjgxAVlfwQ9RyQVIPKbgwaDAJU7D_FeFvSLrYLTVIHUFzj1-50Wdhy8u3smgttkCgv-9p9CSkpANsGXv51BvPa27wMhi_Rc9uKqSe7yHszDbtbviihVWjI5yBcNwOHWg4P6S3_El2l6TlPUkvjhktfjORd3o" />
         <div className="absolute bottom-0 left-0 p-10 z-20">
-          <h3 className="text-3xl font-bold tracking-tight text-on-surface -translate-x-5 group-hover:translate-x-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
+          <h3 className="text-3xl font-bold tracking-tight text-on-surface -translate-x-5 group-hover:translate-x-0  transition-all duration-500">
             Aether Spaces
           </h3>
-          <span className="text-on-surface/40 text-sm -translate-x-2.5 group-hover:translate-x-0 opacity-0 group-hover:opacity-100 transition-all duration-500 delay-75">Brand Identity</span>
+          <span className="text-on-surface/40 text-sm -translate-x-2.5 group-hover:translate-x-0  transition-all duration-500 delay-75">Brand Identity</span>
         </div>
       </div>
     </div>

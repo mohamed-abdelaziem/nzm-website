@@ -35,7 +35,7 @@ export default function Navbar() {
 
           {/* start nav in mobile */}
           {isOpen ? (
-            <div className="bg-surface-container-low dark:bg-surface-container-low flex nav-mobile-bg md:hidden absolute flex-col top-full  z-50 left-0 w-75 h-screen  p-3 gap-4  justify-start items-start  space-x-8">
+            <div className="bg-surface-container-low rounded-r-md dark:bg-surface-container-low flex nav-mobile-bg md:hidden absolute flex-col top-full  z-50 left-0 w-75 h-screen  p-3 gap-4  justify-start items-start  space-x-8">
               <div className="flex items-center justify-end cursor-pointer w-full py-3">
                 <i
                   onClick={() => {

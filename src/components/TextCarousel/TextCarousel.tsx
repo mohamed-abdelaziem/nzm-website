@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function TextCarousel(props:any) {
   return (
-    <div className="absolute top-[80%] -translate-y-1/2  overflow-hidden pointer-events-none">
+    <div className="absolute top-[90%] -translate-y-1/2  overflow-hidden pointer-events-none">
       <motion.div
         className="flex w-max"
         animate={{ x: ["0%", "-50%"] }}
