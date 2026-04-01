@@ -16,6 +16,9 @@ const outfit = Outfit({
 
 export const metadata :Metadata= {
   title: "NZM Advertising Agency",
+   icons:{
+    icon:"./logo.png"
+   },
   description: "Grow your business with NZM.",
   openGraph: {
     title: "NZM Advertising Agency",
