@@ -88,7 +88,6 @@ export default function Portfolio() {
                 <div className="mt-4 flex items-center gap-2 text-on-surface/60 text-sm">
                   <span>View Case Study</span>
                   <span className="material-symbols-outlined text-xs">
-                    
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                   </span>
                 </div>
@@ -193,7 +192,7 @@ export default function Portfolio() {
 
             <Link
               href={"/contact"}
-              className="mainBtn md:text-[20px] hover:-transale-1.25 hover:scale-110 transition-all duration-500 cursor-pointer px-6 py-2.5 md:px-10 md:py-4     rounded text-white font-bold  active:scale-90  hover:shadow-[0_0_30px_rgba(186,171,255,0.2)]">
+              className="mainBtn md:text-[20px] hover:-translate-y-1.25 inline-block  transition-all duration-500 cursor-pointer px-6 py-2.5 md:px-10 md:py-4     rounded text-white font-bold  active:scale-90  hover:shadow-[0_0_30px_rgba(186,171,255,0.2)]">
               Discuss Your Project
             </Link>
           </div>

@@ -395,10 +395,10 @@ export default function About() {
 
            <div className="flex flex-row md:gap-6 gap-4 justify-center flex-wrap">
 
-              <Link href={'/contact'} className="secondBtn w-[60%] md:w-auto cursor-pointer duration-500 px-6 py-2.5 md:px-10 md:py-4 md:mx-0  hover:scale-110 hover:-translate-1.25 rounded text-white font-bold  active:scale-90 transition-all md:text-[20px] hover:shadow-[0_0_30px_rgba(186,171,255,0.2)]">
+              <Link href={'/contact'} className="secondBtn w-[60%] md:w-auto cursor-pointer duration-500 px-6 py-2.5 md:px-10 md:py-4 md:mx-0  hover:-translate-y-1.25 rounded text-white font-bold  active:scale-90 transition-all md:text-[20px] hover:shadow-[0_0_30px_rgba(186,171,255,0.2)]">
               Let's Talk Project
             </Link>
-              <Link href={'/portfolio'} className="bg-surface-container-high w-[60%]  duration-500 hover:-translate-1.25 hover:scale-110 md:w-auto cursor-pointer px-6 py-2.5 md:px-10 md:py-4 md:mx-0    rounded text-white font-bold  active:scale-90 md:text-[20px] transition-all hover:shadow-[0_0_30px_rgba(186,171,255,0.2)]">
+              <Link href={'/portfolio'} className="bg-surface-container-high w-[60%]  duration-500 hover:-translate-y-1.25 md:w-auto cursor-pointer px-6 py-2.5 md:px-10 md:py-4 md:mx-0    rounded text-white font-bold  active:scale-90 md:text-[20px] transition-all hover:shadow-[0_0_30px_rgba(186,171,255,0.2)]">
               View Portfolio
             </Link>
              

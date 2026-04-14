@@ -38,12 +38,12 @@ export default function Home() {
               engineering and avant-garde marketing strategies.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <Link  href={'/contact'} className="mainBtn md:text-[20px] hover:-translate-1.25 transition-all duration-500 hover:scale-110 cursor-pointer px-6 hover:shadow-[0_0_30px_rgba(186,171,255,0.2)] py-2.5 rounded text-on-surface  font-bold  active:scale-90  shadow-[0_0_20px_rgba(82,11,77,0.4)]">
+              <Link  href={'/contact'} className="mainBtn md:text-[20px] hover:-translate-y-1.25 transition-all duration-500  cursor-pointer px-6 hover:shadow-[0_0_30px_rgba(186,171,255,0.2)] py-2.5 rounded text-on-surface  font-bold  active:scale-90  shadow-[0_0_20px_rgba(82,11,77,0.4)]">
                 Start Project
               </Link>
               <Link
                 href={"/portfolio"}
-                className=" md:text-[20px]   hover:scale-110 cursor-pointer group flex items-center gap-3 text-on-surface font-medium hover:text-primary  transition-all duration-500">
+                className=" md:text-[20px] hover:translate-y-1.25   cursor-pointer group flex items-center gap-3 text-on-surface font-medium hover:text-primary  transition-all duration-500">
                 View Showreel
                 <span className=" material-symbols-outlined text-primary group-hover:translate-x-1 transition-transform">
                   <i className="fa-solid fa-circle-play"></i>
@@ -385,7 +385,7 @@ export default function Home() {
                 Join the elite brands architected by NZM. Let's start your
                 digital transformation today.
               </p>
-              <Link href={'/contact'} className="secondBtn md:text-[20px] cursor-pointer px-6 py-2.5 md:px-10 md:py-4 md:mx-0  md:w-auto  rounded text-white font-bold scale-95 active:scale-90 transition-transform  hover:shadow-[0_0_30px_rgba(186,171,255,0.2)]">
+              <Link href={'/contact'} className="secondBtn md:text-[20px] inline-block duration-500  hover:-translate-y-1.25 cursor-pointer px-6 py-2.5 md:px-10 md:py-4 md:mx-0  md:w-auto  rounded text-white font-bold scale-95 active:scale-90 transition-all  hover:shadow-[0_0_30px_rgba(186,171,255,0.2)]">
                 Start Project
               </Link>
             </div>
